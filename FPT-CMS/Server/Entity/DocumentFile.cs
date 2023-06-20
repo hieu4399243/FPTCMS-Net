@@ -2,7 +2,7 @@
 
 namespace Server.Entity;
 
-public class Document
+public class DocumentFile
 {
     public int DocumentId { get; set; }
     public DateTime DocumentCreate { get; set; }

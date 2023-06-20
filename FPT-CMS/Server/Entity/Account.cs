@@ -9,6 +9,7 @@ public class Account
         Comments = new List<Comment>();
         Documents = new List<Document>();
     }
+
     public string Id { get; set; }
     public string Username { get; set; }
     public string Password { get; set; }
@@ -18,5 +19,3 @@ public class Account
     public virtual ICollection<Comment> Comments { get; set; }
     public virtual ICollection<Document> Documents { get; set; }
 }
-
-

@@ -2,7 +2,7 @@
 
 public enum StudentMajors
 {
-    SoftwareEngineer, 
-    ArtificialIntelligence, 
+    SoftwareEngineer,
+    ArtificialIntelligence,
     InformationAssurance
 }
