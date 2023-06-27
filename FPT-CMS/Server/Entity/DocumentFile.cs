@@ -1,14 +1,15 @@
 ﻿using System.Text.Json.Serialization;
+using Server.Entity.Enum;
 
 namespace Server.Entity;
 
 public class DocumentFile
 {
-    public int DocumentId { get; set; }
-    public DateTime DocumentCreate { get; set; }
-    [JsonIgnore] public string CourseId { get; set; }
-    [JsonIgnore] public string AccountId { get; set; }
-    public virtual ICollection<DocumentFile> DocumentFiles { get; set; }
-    public virtual Course? Course { get; set; }
-    public virtual Account? Account { get; set; }
+        public int Id { get; set; }
+        public string UploadFile { get; set; }
+        public FileType FileType { get; set; }
+        public int DocumentationId { get; set; }
+
+        public virtual Document? Document { get; set; }
+
 }

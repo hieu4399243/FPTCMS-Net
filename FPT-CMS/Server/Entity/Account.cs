@@ -2,7 +2,7 @@
 using Server.Entity.Enum;
 
 public class Account
-{
+{ 
     public Account()
     {
         Notifications = new List<Notification>();
