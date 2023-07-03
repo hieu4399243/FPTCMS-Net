@@ -9,7 +9,7 @@ public class Course
         Notifications = new List<Notification>();
         Enrollments = new List<Enrollment>();
         Documents = new List<Document>();
-    }
+    }    
 
     public string CourseId { get; set; }
     public string CourseName { get; set; }

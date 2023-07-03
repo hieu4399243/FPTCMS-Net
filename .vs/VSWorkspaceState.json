@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\FPT-CMS"
+    "\\FPT-CMS",
+    "\\FPT-CMS\\Server\\Entity"
   ],
   "SelectedNode": "\\FPT-CMS\\FPT-CMS.sln",
   "PreviewInSolutionExplorer": false
