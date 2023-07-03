@@ -24,4 +24,10 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="DAO\" />
+      <Folder Include="DTO\" />
+      <Folder Include="wwwRoot\" />
+    </ItemGroup>
+
 </Project>
